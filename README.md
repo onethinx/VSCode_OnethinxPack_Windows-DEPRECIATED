@@ -6,7 +6,7 @@
 - **VS Code**
     - [Download Visual Studio Code](https://code.visualstudio.com/download)
 - **Onethinx Dependencies Pack**
-    - [Download the Onethinx dependencies pack for Windows](https://github.com/onethinx/VSCode_OnethinxPack_Windows)
+    - [Download the Onethinx dependencies pack for Windows](https://github.com/onethinx/VSCode_OnethinxPack_Windows/archive/master.zip)
 ## 2. Install VS Code & extensions
   - Install VS Code.
   - Install extensions:
@@ -20,7 +20,7 @@
     - Output Colorizer (IBM)
     - Tasks (actboy168)
 ## 3. Install the Onethinx Dependencies Pack
-  - Put this pack on your local harddisk (eg: C:\VSCode_OnethinxPack_Windows).
+  - Unzip the pack archive to your local harddisk (eg: C:\VSCode_OnethinxPack_Windows).
   - Open your command prompt (cmd).
   - Drag and drop the file `setVariables.bat` to your command prompt (or type `C:\VSCode_OnethinxPack_Windows\setVariables.bat`).
   - Press enter, you'll see the environment variables and the path being set.
