@@ -7,7 +7,7 @@
     - [Download Visual Studio Code](https://code.visualstudio.com/download)
 - **Onethinx Dependencies Pack**
     - [Download the Onethinx dependencies pack for Windows](https://github.com/onethinx/VSCode_OnethinxPack_Windows)
-## 2. Install VS Code  & extensions
+## 2. Install VS Code & extensions
   - Install VS Code.
   - Install extensions:
     - ARM Support For Visual Studio Code (dan-c-underwood)
