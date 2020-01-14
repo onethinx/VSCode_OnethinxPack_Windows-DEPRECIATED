@@ -1,13 +1,41 @@
 # Onethinx Core Windows dependencies pack
 
-## How to install
+## How to setup Visual Studio Code with the Onethinx Core dependencies pack
 
-1. Put this pack on your local harddisk (eg: C:\VSCode_OnethinxPack_Windows).
-1. Open your command prompt (cmd).
-1. Drag and drop the file `setVariables.bat` to your command prompt (or type `C:\VSCode_OnethinxPack_Windows\setVariables.bat`).
-1. Press enter, you'll see the environment variables and the path being set.
-1. Restart your machine.
-
-## Remind
-
-This pack contains the 64bit version of CMake. Replace with the 32bit version if you run on a 32bit machine.
+## 1. Download prerequisites
+- **VS Code**
+    - [Download Visual Studio Code](https://code.visualstudio.com/download)
+- **Onethinx Dependencies Pack**
+    - [Download the Onethinx dependencies pack for Windows](https://github.com/onethinx/VSCode_OnethinxPack_Windows)
+## 2. Install VS Code  & extensions
+  - Install VS Code.
+  - Install extensions:
+    - ARM Support For Visual Studio Code (dan-c-underwood)
+    - C/C++ IntelliSense, debugging (microsoft)
+    - CMake language support (twxs)
+    - CMake Tools (microsoft)
+    - Cortex-Debug GDB support (marus25)
+    - LinkerScript support for GNU (Zixuan Wang)
+    - Open in Application (Fabio Spampinato)
+    - Output Colorizer (IBM)
+    - Tasks (actboy168)
+## 3. Install the Onethinx Dependencies Pack
+  - Put this pack on your local harddisk (eg: C:\VSCode_OnethinxPack_Windows).
+  - Open your command prompt (cmd).
+  - Drag and drop the file `setVariables.bat` to your command prompt (or type `C:\VSCode_OnethinxPack_Windows\setVariables.bat`).
+  - Press enter, you'll see the environment variables and the path being set.
+  - Restart your machine.
+## 4. Check
+  - If CMake, Make and the compiler is correctly installed by typing the following into your command prompt or terminal window of VS Code.
+    - `cmake -version`
+    - `mingw32-make -v`
+    - `arm-none-eabi-gcc -v`
+## 5. Remind
+  - After changing the device configuration (or project file structure) to use
+    - Clean Reconfigure
+    - Clean Rebuild
+       in order to build the image properly  
+  - To delete the contents of the build folder
+    - if you copied the project including build folder from another location / machine
+    - when build fails.
+  - This pack contains the 64bit version of CMake. Replace with the 32bit version if you run on a 32bit machine.
