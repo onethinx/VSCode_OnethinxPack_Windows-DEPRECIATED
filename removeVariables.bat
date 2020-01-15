@@ -23,12 +23,18 @@ REM Remove the Compiler version (must match the folder name of the Compiler!)
 SET ONETHINX_COMPILER_VERSION=
 REG delete HKCU\Environment /F /V ONETHINX_COMPILER_VERSION
 
+REM Remove the Compiler version (must match the folder name of the Compiler!)
+SET ONETHINX_TOOLS_VERSION=
+REG delete HKCU\Environment /F /V ONETHINX_TOOLS_VERSION
+
 SET ONETHINX_PDL_LOC=
 REG delete HKCU\Environment /F /V ONETHINX_PDL_LOC
 SET ONETHINX_SVD_LOC=
 REG delete HKCU\Environment /F /V ONETHINX_SVD_LOC
 SET ONETHINX_COMPILER_LOC=
 REG delete HKCU\Environment /F /V ONETHINX_COMPILER_LOC
+SET ONETHINX_TOOLS_LOC=
+REG delete HKCU\Environment /F /V ONETHINX_TOOLS_LOC
 
 @ECHO. 
 @ECHO Done, Please restart your machine!
