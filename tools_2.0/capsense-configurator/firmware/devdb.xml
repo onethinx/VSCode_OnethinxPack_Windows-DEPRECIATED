@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<devicedb major="1" minor="0">
+	<devices>
+		<device name="WICED WiFi">
+			<configuration name="WICED WiFi" short_name="WICED WiFi" vid="0x0a5c" pid="0x43fa" protocol="bulk" kits="Wiced-WiFi_0A5C_43FA"/>
+			<configuration name="WICED WiFi" short_name="WICED WiFi" vid="0x04b4" pid="0xf900" protocol="bulk" kits="Wiced-WiFi_04B4_F900"/>
+		</device>
+		<device name="WICED BlueTooth">
+			<configuration name="WICED BlueTooth" short_name="WICED BT" vid="0x04b4" pid="0x009b" protocol="serial" platform_id="0x21" kits="Wiced-BT_04B4_009B_21"/>
+			<configuration name="WICED BlueTooth" short_name="WICED BT" vid="0x04b4" pid="0x009b" protocol="serial" platform_id="0x24" kits="Wiced-BT_04B4_009B_24"/>
+			<configuration name="WICED BlueTooth" short_name="WICED BT" vid="0x04b4" pid="0x009b" protocol="serial" platform_id="0xC4" kits="Wiced-BT_04B4_009B_C4"/>
+			<configuration name="WICED BlueTooth" short_name="WICED BT" vid="0x04b4" pid="0x009b" protocol="serial" platform_id="0x14" kits="Wiced-BT_04B4_009B_14"/>
+			<configuration name="WICED BlueTooth" short_name="WICED BT" vid="0x04b4" pid="0x0005" protocol="serial" platform_id="0x14" kits="Wiced-BT_04B4_0005_14"/>
+		</device>
+		<device name="KitProg Bootloader">
+			<configuration name="KitProg Bootloader" short_name="KP BL" vid="0x04b4" pid="0xf146" protocol="hid" props="KitProg3"/>
+		</device>
+		<device name="KitProg2">
+			<configuration name="KitProg2" short_name="KP2" vid="0x4b4" pid="0xf147" interface="0" protocol="hid" props="KitProg3"/> 
+			<configuration name="KitProg2 CMSIS-DAP HID" short_name="KP2 HID" vid="0x4b4" pid="0xf148" interface="0" protocol="hid" props="KitProg3"/> 
+		</device>
+		<device name="MiniProg4">
+			<configuration name="MiniProg4" short_name="MP4" vid="0x4b4" pid="0xf151" interface="1" protocol="hid" props="KitProg3"/> 
+			<configuration name="MiniProg4" short_name="MP4" vid="0x4b4" pid="0xf152" interface="1" protocol="hid" props="KitProg3"/> 
+			<configuration name="MiniProg4 CMSIS-DAP BULK" short_name="MP4 BULK" vid="0x4b4" pid="0xf151" protocol="bulk" props="KitProg3"/> 
+			<configuration name="MiniProg4 CMSIS-DAP HID" short_name="MP4 HID" vid="0x4b4" pid="0xf152" interface="0" protocol="hid" props="KitProg3"/> 
+		</device>
+		<device name="KitProg3">
+			<configuration name="KitProg3" short_name="KP3" vid="0x4b4" pid="0xf154" interface="1" protocol="hid" props="KitProg3" kits="KitProg3"/> 
+			<configuration name="KitProg3" short_name="KP3" vid="0x4b4" pid="0xf155" interface="1" protocol="hid" props="KitProg3" kits="KitProg3"/> 
+			<configuration name="KitProg3 CMSIS-DAP HID" short_name="KP3 HID" vid="0x4b4" pid="0xf154" interface="0" protocol="hid" props="KitProg3" kits="KitProg3"/> 
+			<configuration name="KitProg3 CMSIS-DAP BULK" short_name="KP3 BULK" vid="0x4b4" pid="0xf155" protocol="bulk" props="KitProg3" kits="KitProg3"/> 
+			<configuration name="KitProg3 CMSIS-DAP BULK" short_name="KP3 BULK" vid="0x4b4" pid="0xf166" protocol="bulk" props="KitProg3" kits="KitProg3"/> 
+		</device>
+		<device name="DAPLink">
+			<configuration name="CMSIS-DAP v2" short_name="DAPLink BULK" vid="0xd28" pid="0x204" protocol="bulk" props="KitProg3" kits="DAPLink"/> 
+		</device>
+	</devices>
+	<props>
+		<category name="KitProg3">
+			<prop name="fw_upgrade" value="kitprog3.cyacd" />
+			<prop name="fw_downgrade" value="kitprog2_1.cyacd" />
+			<prop name="hwid_02" value="CY8CKIT-062-BLE,CY8CKIT-062-WiFi-BT,CYW943012P6EVB-01,CY8CKIT-064S2-4343W" />
+			<prop name="hwid_03" value="CY8CPROTO-063-BLE,CY8CPROTO-064-SB" />
+			<prop name="hwid_05" value="" />
+			<prop name="hwid_07" value="" />
+			<prop name="hwid_08" value="" />
+			<prop name="hwid_0A" value="" />
+			<prop name="hwid_0B" value="CY8CPROTO-062S2-43012,CY8CPROTO-062-4343W,CY8CPROTO-062S3-4343W" />
+			<prop name="hwid_0D" value="CY8CKIT-062S2-43012,CYW9P62S1-43438EVB-01,CYW9P62S1-43012EVB-01" />
+		</category>
+	</props>
+	<kits>
+		<kit name="KitProg3" value="CY8CKIT-062-BLE,CY8CKIT-062-WiFi-BT,CYW943012P6EVB-01,CY8CKIT-064S2-4343W,CY8CPROTO-063-BLE,CY8CPROTO-064-SB,CY8CPROTO-062S2-43012,CY8CPROTO-062-4343W,CY8CPROTO-062S3-4343W,CY8CKIT-062S2-43012,CYW9P62S1-43438EVB-01,CYW9P62S1-43012EVB-01"/>
+		<kit name="Wiced-WiFi_0A5C_43FA" value="BCM943362WCD4-EVB,BCM943438WCD1,CYW943340WCD1-EVB,CYW943907AEVAL1F,CYW943907WAE4,BCM943364WCD1,BCM94343WWCD2-EVB" />
+		<kit name="Wiced-WiFi_04B4_F900" value="CYW954907AEVAL1F,CYW943907AEVAL1F,CYW943455EVB-02,CYW943012EVB-04" />
+		<kit name="Wiced-BT_04B4_009B_24" value="CYW920719Q40EVB-01" />
+		<kit name="Wiced-BT_04B4_009B_14" value="CYW920819EVB-02,CYW920820EVB-02" />
+		<kit name="Wiced-BT_04B4_0005_14" value="CYBT-213043-MESH" />
+	</kits>
+</devicedb>
