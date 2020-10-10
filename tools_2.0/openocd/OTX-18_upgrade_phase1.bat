@@ -8,4 +8,5 @@ openocd ^
 -c "set ENABLE_CM0 0" ^
 -c "set ENABLE_ACQUIRE 1" ^
 -c "source [find target/psoc6.cfg]" ^
+-c "reset_config srst_only;adapter_nsrst_delay 500" ^
 -c "puts stderr {Started by Onethinx Tool}"
