@@ -3,7 +3,7 @@ REM UPDATE THE VARIABLES BELOW TO MATCH THE PDL AND COMPILER FOLDERS
 REM Set the PDL version (must match the folder name of the PDL!)
 SET ONETHINX_PDL_VERSION=PDL_1.3.1.1499
 REM Set the Compiler version (must match the folder name of the Compiler!)
-SET ONETHINX_COMPILER_VERSION=gcc-arm-none-eabi-9-2019-q4-major
+SET ONETHINX_COMPILER_VERSION=gcc-arm-none-eabi-9-2020-q2-update
 REM Set th Tools version (must match the folder name of the Tools folder!)
 SET ONETHINX_TOOLS_VERSION=tools_2.0
 
