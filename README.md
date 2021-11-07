@@ -15,10 +15,12 @@
     - CMake language support (twxs)
     - CMake Tools (microsoft)
     - Cortex-Debug GDB support (marus25)
+    - Power Tools (e.GO Mobile)
     - LinkerScript support for GNU (Zixuan Wang)
     - Open in Application (Fabio Spampinato)
     - Output Colorizer (IBM)
     - Tasks (actboy168)
+    - Power Tools (e.GO Digital GmbH)
 ## 3. Install the Onethinx Dependencies Pack
   - Unzip the pack archive to your local harddisk (eg: C:\VSCode_OnethinxPack_Windows).
   - Open your command prompt (cmd).
