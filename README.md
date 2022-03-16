@@ -23,6 +23,7 @@
     - Power Tools (e.GO Digital GmbH)
 ## 3. Install the Onethinx Dependencies Pack
   - Unzip the pack archive to your local harddisk (eg: C:\VSCode_OnethinxPack_Windows).
+    _Hint: you might want to remove '-master' at the end of the folder name._
   - Open your command prompt (cmd).
   - Drag and drop the file `setVariables.bat` to your command prompt (or type `C:\VSCode_OnethinxPack_Windows\setVariables.bat`).
   - Press enter, you'll see the environment variables and the path being set.
@@ -32,6 +33,8 @@
     - `cmake -version`
     - `mingw32-make -v`
     - `arm-none-eabi-gcc -v`
+  - If you have not done this yet, download the Hello World from https://ghithub.com/onethingx/VSCode_HelloWorld
+    - If this builds without error, the Onethinx build suite has been installed properly.
 ## 5. Remind
   - After changing the device configuration (or project file structure) to use
     - Clean Reconfigure
